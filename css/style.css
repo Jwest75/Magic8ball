@@ -1,0 +1,24 @@
+body {
+    background-color: red;
+}
+
+.hero-image{
+    background-image: url(/img/Background8.jpg);height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#anContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+}
+
+#anContainer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
